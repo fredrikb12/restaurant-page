@@ -1,4 +1,4 @@
-
+import chefJPG from "./pizzachef.jpg";
 
 function loadHome() {
     const returnDiv = document.createElement("div");
@@ -12,7 +12,7 @@ function loadHome() {
     para3.textContent = "Visit today!";
 
     const img = document.createElement("img");
-    img.src = "../src/pizzachef.jpg";
+    img.src = chefJPG;
 
 
     returnDiv.appendChild(para1);

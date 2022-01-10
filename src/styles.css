@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url('../src/pizzaBackground2.png');
+    background: url('./pizzaBackground2.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
